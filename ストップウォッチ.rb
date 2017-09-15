@@ -8,7 +8,7 @@ Shoes.app height: 200, width: 300 do
     flow do
       button "start" do
         @time = Time.now
-        @label.replace "#{@time.strftime '%1:%M:%S %p'}にスタート", font: :"osaka"
+        @label.replace "#{@time.strftime '%Y:%M:%S %p'}にスタート", font: :"osaka"
       end
 
       button "stop" do
